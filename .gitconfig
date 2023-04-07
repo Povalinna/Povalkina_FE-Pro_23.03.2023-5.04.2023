@@ -1,0 +1,14 @@
+[user]
+	email = 111307356+Povalinna@users.noreply.github.com
+	name = Povalinna
+[gui]
+	recentrepo = C:/Users/Инна/Hprogect
+[core]
+	autocrlf = true
+	safecrlf = warn
+	quotepath = off
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
